@@ -1,0 +1,309 @@
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.dn-banner760 {
+		display:none;
+	}
+	#dn-main-menu-background {
+		height: 51px;
+	}	
+		#dn-main-menu ul.menu-items > li  {
+			height: 51px;
+		}
+		#dn-main-menu ul.menu-items > li > a {
+			padding: 20px 50px 0;
+			line-height: 30px;
+		}
+			#dn-main-menu ul.menu-items > li > a span {
+				display: none;
+			}
+			#dn-main-menu ul.menu-items > li.on > a {
+				height: 23px; 
+			}
+			#dn-main-menu ul.menu-items > li.on:last-child > a {
+				padding: 20px 51px 0 51px;
+			}
+			#dn-main-menu ul.menu-items li ul {
+				top: 51px;
+			}
+			.container .search .search-box {
+				margin: 15px 0 0 13%;
+			}
+			.container .programs {
+				margin-top:10px;
+			}
+			.container .content-container .content-title h2 {
+				font-size:150%;
+			}
+			.container .good-to-know .name h3 {
+				font-size:100%;
+			}
+			.testimonial-box .main-container {
+				width:auto;
+				height:auto;
+				padding-bottom:10px;
+			}
+			.testimonial-box .main-container h2 {
+				font-size: 120%;
+			}
+			.call-container .phone {
+				font-size:50%;
+			}
+			.before-after-box {
+				margin: 0px 0px 20px 15px;
+			}
+				.before-after-box.remove-margin {
+					position: relative;
+					left: -15px;
+				}
+	#our-team-container .row-fluid .span5 {
+		margin-left: 14px;
+	}
+	
+	#pricing-table .plan {
+		width: 163px;
+	}
+		#pricing-table .price {
+			font-size: 300%;
+		}
+			#pricing-table .price span {
+				font-size: 50%;
+			}
+		#pricing-table .fee {
+			font-size: 98%;
+		}
+		#pricing-table .savings .total {
+			width: 119px;
+			font-size: 100%;
+		}
+		#pricing-table #most-popular .price {
+			font-size: 400%;
+		}
+	.container .blog-box .blog-list-box .blog-image-container {
+		max-height: 170px;
+	}
+	.container .blog-search-widget .input-search-blog {
+		width: 115px;	
+	}
+	
+	.container .search {
+		height: 129px;
+	}
+	
+	.container .dieticians .image-container-dietician {
+		overflow: hidden;
+		height: 100%;
+	}
+	.container .dieticians .image-container-dietician img {
+		height: 100%;
+		max-width: none;
+	}
+	.container .dieticians .text-container p {
+		padding: 0px 8px 0px 8px;
+	}
+	
+	.sidebar-menu .nav-list > li .nav-submenu a {
+		display: block;
+		height: 20px; 
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+		overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    padding: 0px 4px 5px 8px;
+	}
+	
+	.container .recipe-list-box .recipe-image-container {
+		height: 100px;
+	}
+	.container .recipe-details-container .recipe-details-image {
+		height: 182px;
+	}
+	
+	.dn-slider .span12 {
+		width: 100%;
+	} 
+	.dn-slider .slider-widget {
+		display: none;
+	}
+	.container .slider-widget .after-picture {
+		right: -5px;
+	}
+	.container .slider-widget a.btn-free-consult {
+		width: 85%;
+		margin-left: 5%;
+		font-size: 75%;
+		padding: 10px 0px 3px 10px;
+	}
+	.container .slider-widget a.btn-free-consult i.icon {
+		margin-top:-8px;
+	}
+	#recipe-gallery .owl-pagination {
+		left: 100px;
+	}
+	.container .recipe-details-container .recipe-ingredients-list {
+		width: 100%;
+		overflow: hidden;
+	}
+	.might-also-like-box .span3 {
+		width: 17.6%;
+	}
+	.container .recipe-details-container .related-box {
+		height: 100px;
+	}
+	.container .recipe-details-container .author {
+		height: 101px;
+	}
+	.container .recipe-details-container .author-image {
+		width: 75px;
+		height: 75px; 
+	}
+	.container .recipe-details-container .social-share {
+		top: 16%;
+	}
+	.container .todays-recipe .border-container {
+		padding: 0px 0px 12px 0px;
+	}
+	.container .fb-widget {
+		margin-bottom: 10px;
+	}
+	.container .page-error {
+		margin-left:14%;
+	}
+	.container .notfound-page p {
+		font-size:12px;
+	}
+	a.btn-blue-green  {
+		width:40%;
+	}
+	a.btn-blue-green  i.icon{
+		margin-left: 2px;
+	}
+	
+}
+
+/* Phone to portrait tablet */
+@media (max-width: 767px) {
+	.dn-banner760,
+	.dn-free-consult,
+	.container .slider-widget {
+		display:none;
+	}
+	#dn-main-menu-background {
+		height: 51px;
+	}	
+		#dn-main-menu ul.menu-items > li  {
+			height: 51px;
+		}
+		#dn-main-menu ul.menu-items > li > a {
+			padding: 20px 50px 0;
+			line-height: 30px;
+		}
+			#dn-main-menu ul.menu-items > li > a span {
+				display: none;
+			}
+			#dn-main-menu ul.menu-items > li.on > a {
+				height: 23px; 
+			}
+			#dn-main-menu ul.menu-items > li.on:last-child > a {
+				padding: 20px 51px 0 51px;
+			}
+			#dn-main-menu ul.menu-items li ul {
+				top: 51px;
+			}
+			
+	.before-after-box.remove-margin {
+		margin-left: 40px;
+	}
+	#recipes-book-container .row-fluid .span5 {
+	    width: 100%;
+	}
+	.container .recipe-details-container .social-share {
+		top: 8%;
+	}
+	.ingredients-gallery {
+		width:46%;
+		float: left;
+	}
+	.recipe-details-specifications {
+		float: left;
+	}
+	.container .page-error {
+		margin-left:13%;
+	}
+	#our-team-container .row-fluid .span5 {
+		margin:0;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#dn-header .dn-logo {
+		text-align: center;
+		float: none;
+		margin: 0px 0px 0px 0px;
+	}
+	.might-also-like-box .span3,
+	.might-also-like-box .span5 {
+		width: 100%;
+	}
+	a.btn-book {
+		margin: 30px 0px 0px 20px;
+	}
+	.dn-search {
+		text-align: center;
+		float: none;
+		margin: 15px 0px 0px 0px;
+	}
+	.menu-items {
+		visibility: hidden;
+	}
+	#dn-main-menu-background {
+		height: 30px;
+		margin: 10px 0px 15px 0px;
+	}
+	.dn-main-menu-mobile {
+		width: 100%;
+	}
+	.gray-content-background {
+		background-color: #fff;
+	}
+	.dn-slider,
+	.dn-filter,
+	.social-share,
+	.dn-breadcrumbs
+	{
+		display: none;
+	}
+	.container .dieticians {
+		height: 100%;
+		margin-bottom: 10px;
+	}
+	.container .healthy-recipes {
+		margin-bottom: 10px;
+	}
+	.dn-breadcrumbs .breadcrumb {
+		display: none;
+	}
+	#our-team-container .row-fluid .span5 {
+		margin: 0;
+	}
+	.dietician-box {
+		text-align: center;
+	}
+	.before-after-box {
+		margin: 0px 10px 10px 10px;
+	}
+	.ingredients-gallery,
+	.container .post-entry #recipe-gallery
+	{
+		width: 100%; 
+	}
+	.container .social-like {
+		margin-left: 5%;
+	}
+	
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 99.8% !important;
+}
